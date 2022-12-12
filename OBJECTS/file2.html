@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person = {
+            name: 'chetana',
+            age: 22,
+            "person hobbies" : ['craft', 'sleeping ', 'coding']
+        }
+
+        //to get key ----------
+
+        for(let key in person){
+            console.log(key);
+        }
+
+        // to get values ------------
+
+        for(let key in person){
+            console.log(person[key]);
+        }
+
+        // to get key : value -------------
+
+        for(let key in person){
+            console.log(`${key} : ${person[key]}`);
+        }
+    </script>
+</body>
+</html>
